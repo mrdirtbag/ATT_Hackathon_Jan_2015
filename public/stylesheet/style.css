@@ -37,8 +37,8 @@ h1{
     left:32.5%;
     
     -webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.54);
--moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.54);
-box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+    -moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+    box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
 }
 
 @media (max-width: 767px) {
@@ -61,8 +61,8 @@ box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
         left:5%;
         
         -webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.54);
--moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.54);
-box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+        -moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+        box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
     }
 }
 
@@ -88,8 +88,7 @@ box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
 
 .login_control{
     background-color:#FFF;
-    padding:10px;
-    
+    padding:10px;   
 }
 
 .control {
@@ -99,6 +98,10 @@ box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
 
 .glyphicon {
     color: red;
+}
+
+.glyphicon-ok {
+    color: green;
 }
 
 .label {
