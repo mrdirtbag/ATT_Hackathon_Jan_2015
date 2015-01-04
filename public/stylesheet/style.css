@@ -101,6 +101,10 @@ box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
     margin:10px;
 }
 
+.glyphicon {
+    color: red;
+}
+
 .label {
     color: #EB4F26;
     font-size: 18px;
