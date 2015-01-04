@@ -5,10 +5,25 @@ angular.module('hotAndBothered', ['ui.router'])
 	$urlRouterProvider.otherwise('/');
 
 	$stateProvider
+		.state('home', {
+			url: '/',
+			templateUrl: 'views/home.html'
+		})
+		
 		.state('profile', {
 			url: '/profile',
-			templateUrl: 'views/profile.html',
-			controller: 'ProfileController'
+			templateUrl: 'views/profile.html'
+			// controller: 'ProfileController'
+		})
+
+		.state('matches', {
+			url: '/matches',
+			templateUrl: 'views/matches.html'
+		})
+
+		.state('favorites', {
+			url: '/favorites',
+			templateUrl: 'views/favorites.html'
 		})
 
 		.state('about', {
