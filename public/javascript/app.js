@@ -9,6 +9,11 @@ angular.module('hotAndBothered', ['ui.router'])
 			url: '/',
 			templateUrl: 'views/home.html'
 		})
+
+		.state('login', {
+			url: '/login',
+			templateUrl: 'views/login.html'
+		})
 		
 		.state('profile', {
 			url: '/profile',
