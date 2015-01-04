@@ -1,0 +1,18 @@
+{
+  "name": "HotAndBothered",
+  "version": "0.0.1",
+  "description": "Measure bio metrics to associate personal interest a la tinder",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "ejs": "^1.0.0",
+    "express": "^4.10.6",
+    "mongodb-uri": "^0.9.7",
+    "mongoose": "^3.8.20"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git"
+  }
+}
